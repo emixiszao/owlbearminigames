@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "manifest_version": 1,
   "description": "Minigames compartilhados e sincronizados para sessões no Owlbear Rodeo.",
-  "author": "Cris",
-  "icon": "./icon.svg",
-  "background_url": "./background.html",
+  "author": "@mestremxrpg no Youtube",
+  "icon": "https://emixiszao.github.io/owlbearminigames/icon.svg",
+  "background_url": "https://emixiszao.github.io/owlbearminigames/background.html",
   "action": {
     "title": "Minigames VTT",
-    "icon": "./icon.svg",
-    "popover": "./index.html",
+    "icon": "https://emixiszao.github.io/owlbearminigames/icon.svg",
+    "popover": "https://emixiszao.github.io/owlbearminigames/index.html",
     "width": 360,
     "height": 480
   }
