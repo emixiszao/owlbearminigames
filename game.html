@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Minigame compartilhado</title>
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body class="game-body">
+  <main class="game-overlay" id="game-overlay">
+    <section class="game-panel" role="dialog" aria-modal="true" aria-labelledby="game-title">
+      <header class="game-header">
+        <div class="game-heading">
+          <div class="eyebrow">MINIGAME COMPARTILHADO</div>
+          <h1 id="game-title">Carregando…</h1>
+          <p id="game-description" class="game-description"></p>
+        </div>
+        <button id="close-game" class="button button-danger close-game" type="button" hidden>Encerrar</button>
+      </header>
+      <div class="game-divider"></div>
+      <div id="game-content" class="game-content" aria-live="polite">
+        <p class="loading-state">Sincronizando com a mesa…</p>
+      </div>
+      <footer class="game-footer">
+        <span class="sync-dot" aria-hidden="true"></span>
+        <span>Estado compartilhado pela sala</span>
+      </footer>
+    </section>
+  </main>
+  <script type="module" src="./src/game.js"></script>
+</body>
+</html>
